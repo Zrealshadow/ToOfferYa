@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/e1ixir/CLionProjects/toOffer/剑指 offer__丑数/main.cpp
+iostream
+-
+vector
+-
+string
+-
+

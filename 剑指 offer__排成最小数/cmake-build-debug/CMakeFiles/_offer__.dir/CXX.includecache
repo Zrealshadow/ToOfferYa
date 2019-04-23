@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/e1ixir/CLionProjects/toOffer/剑指 offer__排成最小数/main.cpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+
