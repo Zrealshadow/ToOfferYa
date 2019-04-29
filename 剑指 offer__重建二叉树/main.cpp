@@ -196,6 +196,24 @@ public:
     }
 };
 
+/*-------------------二叉树深度------------------------*/
+
+int TreeDepth(TreeNode* pRoot)
+{
+    if(pRoot==NULL)return 0;
+    else return max(1+TreeDepth(pRoot->left),1+TreeDepth(pRoot->right));
+}
+
+/*--------------------平衡二叉树-------------------*/
+bool IsBalanced_Solution(TreeNode* pRoot) {
+    if(pRoot==NULL)return true;
+    int rd=TreeDepth(pRoot->right);
+    int ld=TreeDepth(pRoot->left);
+    if(abs(rd-ld)<=1)
+        return IsBalanced_Solution(pRoot->left) and IsBalanced_Solution(pRoot->right);
+    else
+        return false;
+}
 
 /*----------------测试---------------*/
 void test(){
@@ -235,16 +253,17 @@ void test3(){
     TreeNode *ptree=reConstructBinaryTree(tree_first_list,tree_mid_list);
     vector<int> ans=PrintFromTopToBottom(ptree);
 }
+
+void test4(){
+    vector<int> tree_first_list={1,2,3,4,5};
+    vector<int> tree_mid_list={2,1,5,4,3};
+    TreeNode *ptree=reConstructBinaryTree(tree_first_list,tree_mid_list);
+    cout<<IsBalanced_Solution(ptree);
+}
 int main() {
 //    test();
 //    test2();
 //    test3();
-    int ** a = new int * [40];
-    int *p;
-    int b=3;
-    p=&b;
-    a[0]=p;
-    cout<<*a[0]<<endl;
-    delete(a);
+    test4();
     return 0;
 }
