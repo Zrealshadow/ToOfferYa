@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="_offer__S" targetName="_offer__S" />
+      <config projectName="_offer__" targetName="_offer__" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7aeb4f-be52-485c-8b19-5a5fe8e5b840" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="46c1bb87-cf85-4c33-97fd-724bcf5a3bcc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../剑指 offer__和为S连续数组/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../剑指 offer__和为S连续数组/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="1778743088">
+    <session id="1627447529">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
@@ -34,12 +34,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2290" />
+          <entry key="cpp" value="589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2290" />
+          <entry key="ObjectiveC" value="589" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="vector" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -54,11 +64,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43128">
+              <caret line="2396" column="35" selection-start-line="2396" selection-start-column="35" selection-end-line="2396" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -114,20 +130,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._offer__S">
+  <component name="RunManager" selected="Application._offer__">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_offer__S" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_offer__S" TARGET_NAME="_offer__S" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_offer__S" RUN_TARGET_NAME="_offer__S">
+    <configuration name="_offer__" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_offer__" TARGET_NAME="_offer__" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_offer__" RUN_TARGET_NAME="_offer__">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application._offer__S" />
+      <item itemvalue="Application._offer__" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -135,18 +151,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8f7aeb4f-be52-485c-8b19-5a5fe8e5b840" name="Default Changelist" comment="" />
-      <created>1556611649318</created>
+      <changelist id="46c1bb87-cf85-4c33-97fd-724bcf5a3bcc" name="Default Changelist" comment="" />
+      <created>1559023674413</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556611649318</updated>
-      <workItem from="1556611650545" duration="4017000" />
-      <workItem from="1557101388333" duration="76000" />
+      <updated>1559023674413</updated>
+      <workItem from="1559023675642" duration="1417000" />
+      <workItem from="1559029014527" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4093000" />
+    <option name="totallyTimeSpent" value="1435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -158,12 +174,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37070063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3299363" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.52611464" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -185,7 +201,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>98</line>
+          <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -195,13 +211,17 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43128">
+          <caret line="2396" column="35" selection-start-line="2396" selection-start-column="35" selection-end-line="2396" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

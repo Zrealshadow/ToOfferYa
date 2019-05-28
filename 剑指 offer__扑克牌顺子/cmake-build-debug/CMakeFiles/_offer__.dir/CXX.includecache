@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/e1ixir/CLionProjects/toOffer/剑指 offer__扑克牌顺子/main.cpp
+iostream
+-
+vector
+/Users/e1ixir/CLionProjects/toOffer/剑指 offer__扑克牌顺子/vector
+string
+/Users/e1ixir/CLionProjects/toOffer/剑指 offer__扑克牌顺子/string
+
